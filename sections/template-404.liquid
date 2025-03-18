@@ -1,0 +1,42 @@
+<div>
+    
+    <div>{{ section.settings.heading }}</div>
+    <div>
+        <p>{{ section.settings.sub_heading }}</p>
+    </div>
+    <div><a href="{{ section.settings.button_url }}">{{ section.settings.button }}</a></div>
+   
+</div>
+
+{% schema %}
+{
+    "name": "404 Template",
+    "tag": "section",
+    "class": "flex align-center justify-center p-2 text-center h-screen",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "404"
+        },
+        {
+            "type": "text",
+            "id": "sub_heading",
+            "label": "Sub Heading",
+            "default": "The page that you are looking for is not found"
+        },
+        {
+            "type": "text",
+            "id": "button",
+            "label": "Button Text",
+            "default": "Go To Homepage"
+        },
+        {
+            "type": "url",
+            "id": "button_url",
+            "label": "Button link"
+        }              
+        ]
+}
+{% endschema %}
