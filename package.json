@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/polidario/Elizabeth_Clean#readme",
   "dependencies": {
-    "@tailwindcss/cli": "^4.0.14",
-    "tailwindcss": "^4.0.14"
+    "@tailwindcss/cli": "^4.0.15",
+    "tailwindcss": "^4.0.15"
   }
 }
